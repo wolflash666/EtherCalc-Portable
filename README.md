@@ -12,9 +12,11 @@ EtherCalc-Portable 是一个便携式的 EtherCalc 在线电子表格应用程�
 
 ## 快速开始
 
-1. 下载并解压 EtherCalc-Portable 压缩包
-2. 双击 `start.bat` 启动服务
-3. 在浏览器中访问 `http://localhost:8000`
+1. 在nodejs官网下载并解压 node-v16.20.2-win-x64 压缩包
+2. 在node目录下shift 右键 cmd 录入 npm install ethercalc --global-style 回车
+3. 下载 start.bat 、
+4. 双击 `start.bat` 启动服务
+5. 在浏览器中访问 `http://localhost:8000`
 
 ## 导出功能
 
@@ -22,7 +24,6 @@ EtherCalc-Portable 是一个便携式的 EtherCalc 在线电子表格应用程�
 - CSV: `http://localhost:8000/[表格名].csv` 或 `http://localhost:8000/_/[表格名]/csv`
 - HTML: `http://localhost:8000/[表格名].html` 或 `http://localhost:8000/_/[表格名]/html`
 - ODS: `http://localhost:8000/[表格名].ods` 或 `http://localhost:8000/_/[表格名]/ods`
-- FODS: `http://localhost:8000/[表格名].fods` 或 `http://localhost:8000/_/[表格名]/fods`
 - XLSX: `http://localhost:8000/[表格名].xlsx` 或 `http://localhost:8000/_/[表格名]/xlsx`
 
 多表格导出：
@@ -42,4 +43,5 @@ EtherCalc-Portable 是一个便携式的 EtherCalc 在线电子表格应用程�
 ## 致谢
 
 本项目基于 [EtherCalc](https://github.com/audreyt/ethercalc) 开发，感谢原作者的贡献。
+
 

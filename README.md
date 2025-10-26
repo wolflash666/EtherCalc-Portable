@@ -14,7 +14,7 @@ EtherCalc-Portable 是一个便携式的 EtherCalc 在线电子表格应用程�
 
 1. 在nodejs官网下载并解压 node-v16.20.2-win-x64 压缩包
 2. 在node目录下shift 右键 cmd 录入 npm install ethercalc --global-style 回车
-3. 下载 start.bat 、
+3. 下载 start.bat 、/node_modules/ethercalc/main.js和/node_modules/ethercalc/sc.js 覆盖到node目录下
 4. 双击 `start.bat` 启动服务
 5. 在浏览器中访问 `http://localhost:8000`
 
@@ -43,5 +43,6 @@ EtherCalc-Portable 是一个便携式的 EtherCalc 在线电子表格应用程�
 ## 致谢
 
 本项目基于 [EtherCalc](https://github.com/audreyt/ethercalc) 开发，感谢原作者的贡献。
+
 
 

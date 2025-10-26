@@ -4,7 +4,7 @@ EtherCalc-Portable 是一个便携式的 EtherCalc 在线电子表格应用程�
 
 ## 功能特点
 
-- 基于 Node.js 的便携式部署，无需安装
+- 基于 node-v16.20.2-win-x64 的便携式部署，无需安装
 - 支持多种格式导出：CSV, HTML, ODS, FODS, XLSX
 - 支持多表格导出功能
 - 支持本地文件系统存储，无需数据库
@@ -42,3 +42,4 @@ EtherCalc-Portable 是一个便携式的 EtherCalc 在线电子表格应用程�
 ## 致谢
 
 本项目基于 [EtherCalc](https://github.com/audreyt/ethercalc) 开发，感谢原作者的贡献。
+
